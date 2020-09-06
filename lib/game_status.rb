@@ -43,12 +43,11 @@ WIN_COMBINATIONS = [
     won?(board) || draw?(board) || full?(board)
   end
   
-  def winner?(board)
-    if winning_combo = won?(board)
-    
-    board[winning_combo.first]
+  def winner(board)
+   # if won?(board) = winning_combo
+    return board[won?(board).first]
       
-    end
+   # end
     
   end
   
