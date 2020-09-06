@@ -45,7 +45,7 @@ WIN_COMBINATIONS = [
   
   def winner?(board)
     if won?(board) = winning_combo
-    return board[won?(board).first]
+    return board[winning_combo.first]
       
     end
     
